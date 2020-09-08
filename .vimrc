@@ -2,6 +2,7 @@
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
 "   Castom settings
+
 set number
 
 set mouse=a
@@ -51,6 +52,10 @@ Plug 'xolox/vim-colorscheme-switcher'
 
 Plug 'sheerun/vim-polyglot'
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'tpope/vim-surround'
+
 Plug 'xolox/vim-misc'
 
 call plug#end()
@@ -60,3 +65,8 @@ color darcula
 
 " mapping
 map <C-n> :NERDTreeToggle<CR>
+
+" autocomplition
+" filetype plugin on
+" set omnifunc=syntaxcomplete#Complete
+
