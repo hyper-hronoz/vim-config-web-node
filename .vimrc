@@ -9,6 +9,8 @@ set mouse=a
 
 set tabstop=2       " The width of a TAB is set to 4.
 
+set paste
+
 set nowrap
 
 if exists('+termguicolors')
